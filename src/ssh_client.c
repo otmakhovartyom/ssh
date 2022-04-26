@@ -1,6 +1,23 @@
-#include "ssh_lib.h"
+#include "../include/ssh_lib.h"
+#include "../include/client.h"
 
-int alarm_wait = 0;
+int main(int argc, char *argv[])
+{
+	if (argc < 1)
+    {
+        help_message();
+        return 0;
+    }
+	
+	
+	
+	broadcast_search(INADDR_ANY, htons(54321));
+
+
+
+
+	return 0;
+}
 
 void alarm_handler(int signum)
 {
@@ -21,7 +38,7 @@ void help_message()
 		"                                                      Default log <file> is \"/tmp/.ssh-log\".\n");
 }
 
-int timer_create()
+int timer_creater()
 {
 	sigset_t sig = {};
 	sigemptyset(&sig);
@@ -91,7 +108,7 @@ int broadcast_search(in_addr_t client_addr, in_port_t broadcast_port)
 		return ERROR_SEND;
 	}
 
-	int timer = timer_create();
+	int timer = timer_creater();
 
 	if (timer < 0)
 	{
@@ -128,10 +145,4 @@ int broadcast_search(in_addr_t client_addr, in_port_t broadcast_port)
 
 	close(client_socket);
 	return 0;
-}
-
-int main()
-{
-	int a = 0;
-	return a;
 }

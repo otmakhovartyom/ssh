@@ -1,4 +1,29 @@
-#include "ssh_lib.h"
+#include "../include/ssh_lib.h"
+#include "../include/server.h"
+
+int main(int argc, char *argv[])
+{
+	if (argc != 3)
+	{
+		printf("Please, run the program in the following format: \n"               "./server <host> <port>\n");
+		return ERROR_INVALID_ARGC;
+	}
+
+	struct sockaddr_in address = {};
+
+	if (inet_ntop(AF_INET, &address.sin_addr, argv[1], strlen(argv[1])) == NULL)
+	{
+		printf("Please, run the program in the following format: \n"               "./server <host> <port>\n");
+		return ERROR_INVALID_ADDRESS;
+	}
+
+	address.sin_port = htons(atoi(argv[2]));
+
+	int result = broadcast_waiting(address.sin_addr.s_addr, address.sin_port);
+
+	return 0;
+
+}
 
 int broadcast_waiting(in_addr_t serv_addr, in_port_t serv_port)
 {
@@ -59,13 +84,4 @@ int broadcast_waiting(in_addr_t serv_addr, in_port_t serv_port)
 
 	close(server_socket);
 	return 0;
-}
-
-int main()
-{
-	struct sockaddr_in client;
-	struct sockaddr_in server;
-	server.sin_family = AF_INET;
-	server.sin_port = htons(27312);
-	server.sin_addr.s_addr = htonl(INADDR_ANY);
 }

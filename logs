@@ -1,0 +1,71 @@
+25.04.2022 20:16:19 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:16:19 log.c:88 My first log! 42
+25.04.2022 20:16:19 log.c:89 [INFO] My second log entry!
+25.04.2022 20:16:19 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:16:19 log.c:93 [ERROR] 12 Cannot allocate memory connect
+25.04.2022 20:17:12 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:17:12 log.c:88 My first log! 42
+25.04.2022 20:17:12 log.c:89 [INFO] My second log entry!
+25.04.2022 20:17:12 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:17:12 log.c:93 [ERROR] 12 Cannot allocate memory connect
+25.04.2022 20:17:19 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:17:19 log.c:88 My first log! 42
+25.04.2022 20:17:19 log.c:89 [INFO] My second log entry!
+25.04.2022 20:17:19 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:17:19 log.c:93 [ERROR] 16 Device or resource busy connect
+25.04.2022 20:17:34 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:17:34 log.c:88 My first log! 42
+25.04.2022 20:17:34 log.c:89 [INFO] My second log entry!
+25.04.2022 20:17:34 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:17:34 log.c:93 [ERROR] 1 Operation not permitted connect
+25.04.2022 20:17:50 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:17:50 log.c:88 My first log! 42
+25.04.2022 20:17:50 log.c:89 [INFO] My second log entry!
+25.04.2022 20:17:50 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:17:50 log.c:93 [ERROR] 67 Link has been severed connect
+25.04.2022 20:18:06 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:18:06 log.c:88 My first log! 42
+25.04.2022 20:18:06 log.c:89 [INFO] My second log entry!
+25.04.2022 20:18:06 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:18:06 log.c:93 [ERROR] 167 Unknown error 167 connect
+25.04.2022 20:18:20 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:18:20 log.c:88 My first log! 42
+25.04.2022 20:18:20 log.c:89 [INFO] My second log entry!
+25.04.2022 20:18:20 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:18:20 log.c:93 [ERROR] 169 Unknown error 169 connect
+25.04.2022 20:18:29 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:18:29 log.c:88 My first log! 42
+25.04.2022 20:18:29 log.c:89 [INFO] My second log entry!
+25.04.2022 20:18:29 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:18:29 log.c:93 [ERROR] 69 Srmount error connect
+25.04.2022 20:27:30 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:27:30 log.c:88 My first log! 42
+25.04.2022 20:27:30 log.c:89 [INFO] My second log entry!
+25.04.2022 20:27:30 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:27:30 log.c:93 69 Srmount error connect
+25.04.2022 20:27:57 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:27:57 log.c:88 My first log! 42
+25.04.2022 20:27:57 log.c:89 [INFO] My second log entry!
+25.04.2022 20:27:57 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:27:57 log.c:93 connect
+69 Srmount error 25.04.2022 20:29:22 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:29:22 log.c:88 My first log! 42
+25.04.2022 20:29:22 log.c:89 [INFO] My second log entry!
+25.04.2022 20:29:22 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:29:22 log.c:93 connect errorerrno = 69 Srmount error 25.04.2022 20:30:32 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:30:32 log.c:88 My first log! 42
+25.04.2022 20:30:32 log.c:89 [INFO] My second log entry!
+25.04.2022 20:30:32 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:30:32 log.c:93 connect error errno = 69: Srmount error 25.04.2022 20:31:10 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:31:10 log.c:88 My first log! 42
+25.04.2022 20:31:10 log.c:89 [INFO] My second log entry!
+25.04.2022 20:31:10 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:31:10 log.c:93 connect error (errno = 69): Srmount error 25.04.2022 20:31:38 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:31:38 log.c:88 My first log! 42
+25.04.2022 20:31:38 log.c:89 [INFO] My second log entry!
+25.04.2022 20:31:38 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:31:38 log.c:93 connect error (errno = 12): Cannot allocate memory 25.04.2022 20:31:56 My favourite programm version 0x0. Successful log init.
+25.04.2022 20:31:56 log.c:88 My first log! 42
+25.04.2022 20:31:56 log.c:89 [INFO] My second log entry!
+25.04.2022 20:31:56 log.c:90 [ERROR] My third log entry!
+25.04.2022 20:31:56 log.c:93 calloc error (errno = 12): Cannot allocate memory 
