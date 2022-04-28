@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/server.dir/sources/ssh_lib.c.o CMakeFiles/server.dir/sources/ssh_server.c.o -o server 

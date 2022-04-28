@@ -1,0 +1,8 @@
+/home/otard/Progs/SSH_project/build/CMakeFiles/edit_cache.dir
+/home/otard/Progs/SSH_project/build/CMakeFiles/rebuild_cache.dir
+/home/otard/Progs/SSH_project/build/client/CMakeFiles/client.dir
+/home/otard/Progs/SSH_project/build/client/CMakeFiles/edit_cache.dir
+/home/otard/Progs/SSH_project/build/client/CMakeFiles/rebuild_cache.dir
+/home/otard/Progs/SSH_project/build/server/CMakeFiles/server.dir
+/home/otard/Progs/SSH_project/build/server/CMakeFiles/edit_cache.dir
+/home/otard/Progs/SSH_project/build/server/CMakeFiles/rebuild_cache.dir

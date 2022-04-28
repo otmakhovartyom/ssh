@@ -1,0 +1,69 @@
+28.04.2022 18:53:31 Successful log init.
+28.04.2022 18:53:31 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:68 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 18:55:08 Successful log init.
+28.04.2022 18:55:08 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:69 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 18:55:28 Successful log init.
+28.04.2022 18:55:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:168 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 18:55:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 18:57:04 Successful log init.
+28.04.2022 18:57:04 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:169 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 18:57:04 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:07:39 Successful log init.
+28.04.2022 19:07:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:62 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:07:49 Successful log init.
+28.04.2022 19:07:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:62 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:08:15 Successful log init.
+28.04.2022 19:08:15 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:62 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:08:15 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:78 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:09:49 Successful log init.
+28.04.2022 19:09:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:178 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:09:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:10:02 Successful log init.
+28.04.2022 19:10:02 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:178 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:10:02 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:10:16 Successful log init.
+28.04.2022 19:10:16 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:178 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:10:16 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:12:10 Successful log init.
+28.04.2022 19:12:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:86 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:12:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:102 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:14:22 Successful log init.
+28.04.2022 19:14:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:202 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:14:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:30 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:26:39 Successful log init.
+28.04.2022 19:26:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:201 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:26:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:42 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:34:15 Successful log init.
+28.04.2022 19:34:15 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
+28.04.2022 19:36:26 Successful log init.
+28.04.2022 19:36:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 19:36:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:07:10 Successful log init.
+28.04.2022 20:07:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
+28.04.2022 20:07:10 Successful log init.
+28.04.2022 20:07:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
+28.04.2022 20:08:01 Successful log init.
+28.04.2022 20:08:01 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
+28.04.2022 20:08:01 Successful log init.
+28.04.2022 20:08:01 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
+28.04.2022 20:09:12 28.04.2022 20:09:12 Successful log init.
+Successful log init.
+28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:10:07 28.04.2022 20:10:07 Successful log init.
+Successful log init.
+28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:10:07 28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+/home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:15:21 Successful log init.
+28.04.2022 20:15:21 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:15:21 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:28:31 Successful log init.
+28.04.2022 20:28:31 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:195 bind error (errno = 99): Cannot assign requested address 
+28.04.2022 20:28:31 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 99): Cannot assign requested address 
+28.04.2022 20:29:49 Successful log init.
+28.04.2022 20:29:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:195 bind error (errno = 99): Cannot assign requested address 
+28.04.2022 20:29:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 99): Cannot assign requested address 
