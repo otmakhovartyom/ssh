@@ -47,16 +47,13 @@
 28.04.2022 20:08:01 Successful log init.
 28.04.2022 20:08:01 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:82 bind error (errno = 98): Address already in use 
 28.04.2022 20:09:12 28.04.2022 20:09:12 Successful log init.
-Successful log init.
 28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:09:12 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:10:07 28.04.2022 20:10:07 Successful log init.
-Successful log init.
 28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
-28.04.2022 20:10:07 28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
-/home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:10:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
 28.04.2022 20:15:21 Successful log init.
 28.04.2022 20:15:21 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
@@ -67,3 +64,146 @@ Successful log init.
 28.04.2022 20:29:49 Successful log init.
 28.04.2022 20:29:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:195 bind error (errno = 99): Cannot assign requested address 
 28.04.2022 20:29:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 99): Cannot assign requested address 
+28.04.2022 21:18:28 Successful log init.
+28.04.2022 21:18:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:207 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 21:18:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:48 broadcast beda (errno = 11): Resource temporarily unavailable 
+28.04.2022 22:14:00 Successful log init.
+28.04.2022 22:14:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:225 recvfrom error (errno = 11): Resource temporarily unavailable 
+28.04.2022 22:14:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:50 broadcast beda (errno = 11): Resource temporarily unavailable 
+04.05.2022 22:19:04 Successful log init.
+04.05.2022 22:19:04 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:16 getpwnam (errno = 0): Success 
+04.05.2022 22:19:50 Successful log init.
+04.05.2022 22:19:50 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:16 getpwnam (errno = 0): Success 
+04.05.2022 22:37:25 Successful log init.
+04.05.2022 22:37:25 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:333 [ERROR] Incorrect password!
+04.05.2022 22:37:31 Successful log init.
+04.05.2022 22:37:31 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:333 [ERROR] Incorrect password!
+04.05.2022 22:41:13 Successful log init.
+04.05.2022 22:41:13 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:41:42 Successful log init.
+04.05.2022 22:41:42 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:41:49 Successful log init.
+04.05.2022 22:41:49 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:41:53 Successful log init.
+04.05.2022 22:41:53 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:41:58 Successful log init.
+04.05.2022 22:41:58 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:43:01 Successful log init.
+04.05.2022 22:43:01 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:337 [ERROR] Incorrect password!
+04.05.2022 22:47:48 Successful log init.
+04.05.2022 22:47:48 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:350 [ERROR] Incorrect password!
+04.05.2022 22:48:15 Successful log init.
+04.05.2022 22:48:15 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:350 [ERROR] Incorrect password!
+04.05.2022 22:50:45 Successful log init.
+04.05.2022 22:50:45 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:350 [ERROR] Incorrect password!
+04.05.2022 23:01:23 Successful log init.
+04.05.2022 23:01:23 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:20 getpwnam (errno = 0): Success 
+10.05.2022 01:10:19 Successful log init.
+10.05.2022 01:10:19 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+10.05.2022 01:13:20 Successful log init.
+10.05.2022 01:13:20 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+10.05.2022 01:43:46 Successful log init.
+10.05.2022 01:43:46 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+10.05.2022 01:44:09 Successful log init.
+10.05.2022 01:44:09 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = -1): Unknown error -1 
+10.05.2022 02:37:54 Successful log init.
+10.05.2022 02:37:54 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = -1): Unknown error -1 
+12.05.2022 18:42:45 Successful log init.
+12.05.2022 18:42:45 /home/otard/Progs/SSH_project/client/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+12.05.2022 18:48:22 Successful log init.
+12.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 18:48:22 12.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+Successful log init.
+12.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 18:48:22 Successful log init.
+12.05.2022 18:48:22 12.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started/home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 18:48:22 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 18:49:09 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:51116 :: Where is server?
+12.05.2022 18:51:10 Successful log init.
+12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 18:51:10 Successful log init.
+12.05.2022 18:51:10 12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+Successful log init.
+12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 18:51:10 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 18:51:17 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:49811 :: Where is server?
+12.05.2022 19:12:19 Successful log init.
+12.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:12:19 12.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+Successful log init.
+12.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:12:19 Successful log init.
+12.05.2022 19:12:19 12.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started/home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:12:19 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:12:24 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:34451 :: Where is server?
+12.05.2022 19:12:52 Successful log init.
+12.05.2022 19:12:52 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:380 sendto error (errno = 0): Success 
+12.05.2022 19:12:52 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:12:52 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:12:52 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:12:52 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:14:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:54621 :: Where is server?
+12.05.2022 19:17:35 Successful log init.
+12.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:17:35 12.05.2022 19:17:35 Successful log init.
+/home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:17:35 Successful log init.
+12.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:17:35 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:17:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:56136 :: Where is server?
+12.05.2022 19:18:07 Successful log init.
+12.05.2022 19:18:07 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:384 sendto error (errno = 0): Success 
+12.05.2022 19:18:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor
+12.05.2022 19:18:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 0
+12.05.2022 19:18:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 0
+12.05.2022 19:18:07 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success
+12.05.2022 19:18:20 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:53675 :: Where is server?
+12.05.2022 19:22:30 Successful log init.
+12.05.2022 19:22:30 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:22:30 Successful log init.
+12.05.2022 19:22:30 12.05.2022 19:22:30 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started/home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:22:30 12.05.2022 19:22:30 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 31243Successful log init.
+12.05.2022 19:22:30 12.05.2022 19:22:30 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started/home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:22:30 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:22:58 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:44123 :: Where is server?
+12.05.2022 19:23:42 Successful log init.
+12.05.2022 19:23:42 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:384 sendto error (errno = 0): Success 
+12.05.2022 19:23:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:23:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:23:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:23:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:26:36 Successful log init.
+12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:26:36 Successful log init.
+12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:26:36 12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 31243Successful log init.
+12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:26:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:27:00 Successful log init.
+12.05.2022 19:27:00 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:385 sendto error (errno = 0): Success 
+12.05.2022 19:27:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:27:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:27:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:27:00 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:28:28 Successful log init.
+12.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:28:28 12.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+Successful log init.
+12.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:28:28 Successful log init.
+12.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:28:28 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:28:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:56019 :: Where is server?
+12.05.2022 19:28:42 Successful log init.
+12.05.2022 19:28:42 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:385 sendto error (errno = 0): Success 
+12.05.2022 19:28:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:28:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:28:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:28:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:30:40 Successful log init.
+12.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:30:40 Successful log init.
+12.05.2022 19:30:40 12.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:30:40 Successful log init.
+/home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:30:40 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:30:45 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:42348 :: Where is server?
+12.05.2022 19:30:49 Successful log init.
+12.05.2022 19:30:49 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:385 sendto error (errno = 0): Success 
+12.05.2022 19:30:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:30:49 /home/otard/Progs/SSH_project/server/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+12.05.2022 19:30:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -1: Operation not permitted12.05.2022 19:30:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:470 [INFO] server read errno = 012.05.2022 19:30:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:486 [INFO] server send errno = 012.05.2022 19:32:36 Successful log init.
+12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:32:36 Successful log init.
+12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:32:36 12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 31243Successful log init.
+12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:32:36 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:32:41 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:59936 :: Where is server?
+12.05.2022 19:32:45 Successful log init.
+12.05.2022 19:32:45 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:385 sendto error (errno = 0): Success 
+12.05.2022 19:32:45 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 0): Success 
+12.05.2022 19:32:45 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:32:45 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:32:45 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:32:45 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:32:52 Successful log init.
+12.05.2022 19:32:52 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 111): Connection refused 
+12.05.2022 19:34:02 Successful log init.
+12.05.2022 19:34:02 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 111): Connection refused 
+12.05.2022 19:34:34 Successful log init.
+12.05.2022 19:34:34 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:34:34 Successful log init.
+12.05.2022 19:34:34 12.05.2022 19:34:34 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+/home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:34:34 Successful log init.
+12.05.2022 19:34:34 12.05.2022 19:34:34 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started/home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:34:34 12.05.2022 19:34:34 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success/home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:34:49 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:36256 :: Where is server?
+12.05.2022 19:34:56 Successful log init.
+12.05.2022 19:34:56 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:385 sendto error (errno = 0): Success 
+12.05.2022 19:34:56 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 0): Success 
+12.05.2022 19:34:56 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:34:56 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:34:56 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:34:56 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:37:39 Successful log init.
+12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:37:39 Successful log init.
+12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:37:39 12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 31243Successful log init.
+12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:37:39 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:37:42 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:37390 :: Where is server?
+12.05.2022 19:37:48 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:43290 :: Where is server?
+12.05.2022 19:37:54 Successful log init.
+12.05.2022 19:37:54 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:387 sendto error (errno = 0): Success 
+12.05.2022 19:37:54 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 0): Success 
+12.05.2022 19:37:54 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:37:54 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:37:54 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:37:54 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success12.05.2022 19:39:26 Successful log init.
+12.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:22 [INFO] broadcast has been started12.05.2022 19:39:26 12.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:199 [INFO] broadcast message is being received
+Successful log init.
+12.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:40 [INFO] tcp-server has been started12.05.2022 19:39:26 12.05.2022 19:39:26 Successful log init.
+/home/otard/Progs/SSH_project/server/sources/ssh_server.c:372 [INFO] tcp_socket: port 3124312.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:58 [INFO] udp-server has been started12.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:382 [INFO] tcp_socket is listening: port 3124312.05.2022 19:39:26 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:61 [INFO] udp-server has been stopped, error 0: Success12.05.2022 19:39:29 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:216 [INFO] broadcast from 192.168.0.101:59976 :: Where is server?
+12.05.2022 19:39:32 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -10: Bad file descriptor12.05.2022 19:39:32 /home/otard/Progs/SSH_project/server/sources/ssh_lib.c:277 auth (errno = 1): Operation not permitted 
+12.05.2022 19:39:32 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error -1: Operation not permitted12.05.2022 19:39:32 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:470 [INFO] server read errno = 012.05.2022 19:39:32 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:486 [INFO] server send errno = 012.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 1 "s" errno = 012.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:516 [INFO] server recv errno = 012.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:526 [INFO] server write errno = 012.05.2022 19:39:37 Successful log init.
+12.05.2022 19:39:37 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:472 sendto error (errno = 0): Success 
+12.05.2022 19:39:37 /home/otard/Progs/SSH_project/client/sources/ssh_client.c:98 client_operation error (errno = 0): Success 
+12.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:501 [INFO] server recv 0 "" errno = 012.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:505 [INFO] client was shutdowned, errno = 012.05.2022 19:39:37 /home/otard/Progs/SSH_project/server/sources/ssh_server.c:43 [INFO] tcp-server has been stopped, error 1: Success

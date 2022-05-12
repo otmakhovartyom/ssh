@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/client.dir/sources/ssh_client.c.o CMakeFiles/client.dir/sources/ssh_lib.c.o -o client 
+/usr/bin/cc -lpam -lpam_misc -rdynamic CMakeFiles/client.dir/sources/ssh_client.c.o CMakeFiles/client.dir/sources/ssh_lib.c.o -o client 

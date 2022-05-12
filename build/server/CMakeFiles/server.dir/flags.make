@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/otard/Progs/SSH_project/server/headers
 
-C_FLAGS = 
+C_FLAGS = -lpam -lpam_misc
 

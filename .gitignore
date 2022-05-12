@@ -1,0 +1,13 @@
+build
+bash.c
+broadcast_client.c
+broadcast_server.c
+client.c
+lev_client.c
+lev_server.c
+log.c
+log.h
+pswd.c
+server.c
+term.c
+*.o

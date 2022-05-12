@@ -254,3 +254,224 @@ int get_file(int client_fd, _Bool is_udp, struct sockaddr_in* server)
 	free(buffer);
 	return 0;
 }
+
+struct pam_conv my_conv = {misc_conv, NULL};
+
+int login_into_user(char* username)
+{
+	pam_handle_t *pam = NULL;
+
+	int ret = pam_start("my_ssh", username, &my_conv, &pam);
+
+	if (ret != PAM_SUCCESS)
+	{
+		log_perror("start");
+		printf("Failed pam_start\n");
+		return -1;
+	}
+
+	ret = pam_authenticate(pam, 0);
+
+	if (ret != PAM_SUCCESS)
+	{
+		log_perror("auth");
+		printf("Incorrect password!\n");
+		return -1;
+	}
+
+	ret = pam_acct_mgmt(pam, 0);
+
+	if (ret != PAM_SUCCESS)
+	{
+		printf("User account expired!\n");
+		return -1;
+	}
+
+	if (pam_end(pam, ret) != PAM_SUCCESS)
+	{
+		printf("Unable to pam_end()\n");
+		return -1;
+	}
+
+	printf("Login succesfull\n");
+	return 0;
+}
+
+int set_id(const char* username)
+{
+	struct passwd* info = getpwnam(username);
+
+	if (!info)
+	{
+		log_perror("getpwnam()");
+		return -1;
+	}
+
+	if (setgid(info->pw_gid) == -1)
+	{
+		log_perror("setgid()");
+		return -1;
+	}
+
+	if (setuid(info->pw_uid) == -1)
+	{
+		log_perror("setuid()");
+		return -1;
+	}
+
+	return 0;
+}
+
+int pty_master_open(char* slave_name, size_t slave_name_len)
+{
+	int master = posix_openpt(O_RDWR | O_NOCTTY);
+
+	if (master == -1) 
+	{
+		log_perror("posix_openpt error");
+        return -1;
+	}
+
+	if (grantpt(master) == -1)
+	{
+		log_perror("grantpt error");
+		close(master);
+		return -1;       
+	}
+
+	if (unlockpt(master) == -1)
+	{
+		log_perror("unlockpt error");
+		close(master);
+		return -1;
+	}
+
+	char* pathname = ptsname(master);
+
+	if (pathname == NULL)
+	{
+		log_perror("ptsname error");
+		close(master);
+		return -1;
+	}
+
+	if (strlen(pathname) < slave_name_len)
+		strncpy(slave_name, pathname, slave_name_len);
+	
+	else
+	{
+		close(master);
+		errno = EOVERFLOW;
+		log_perror("overflow slave name buffer");
+		return -1;
+	}
+
+	return master;
+}
+
+pid_t pty_fork(int* master_fd, char* slave_name, size_t slave_name_len, const struct termios* slave_termios, const struct winsize* slave_winsize)
+{
+	char slave_name_buffer[BUF_LEN] = "";
+
+	int mfd = pty_master_open(slave_name_buffer, BUF_LEN);
+
+	if (mfd < 0)
+		return mfd;
+	
+	if (slave_name != NULL)
+	{
+		if (strlen(slave_name_buffer) < slave_name_len)
+			strncpy(slave_name, slave_name_buffer, slave_name_len);
+		
+		else
+		{
+			close(mfd);
+			errno = EOVERFLOW;
+			log_perror("overflow slave name buffer");
+			return -1;
+		}
+	}
+
+	pid_t pid = fork(); 
+
+	if (pid == -1)
+	{
+		log_perror("fork error");
+		close(mfd);
+		return  ERROR_FORK;
+	}
+
+	if (pid) // parent
+	{
+		*master_fd = mfd;
+		return pid;
+	}   
+
+	// child
+	if (setsid() == -1)
+	{
+		log_perror("setsid error");
+		exit(EXIT_FAILURE);
+	}
+
+	close(mfd);
+
+	int slave_fd = open(slave_name_buffer, O_RDWR);
+	
+	if (slave_fd == -1)
+	{
+		log_perror("ERROR: pty_fork:open()");
+		exit(EXIT_FAILURE);
+	}
+
+#ifdef TIOCSCTTY
+
+	if (ioctl(slave_fd, TIOCSCTTY, 0) == -1)
+	{
+		log_perror("ioctl error");
+		exit(EXIT_FAILURE);
+	}
+
+#endif // TIOCSTTY
+
+	if (slave_termios != NULL)
+	{
+		if (tcsetattr(slave_fd, TCSANOW, slave_termios) == -1)
+		{
+			log_perror("tcsetattr error");
+			exit(EXIT_FAILURE);
+		}
+	}
+
+	if (slave_winsize != NULL)
+	{
+		if (ioctl(slave_fd, TIOCSWINSZ, slave_winsize) == -1)
+		{
+			perror("ERROR: pty_fork:icontl(TIOCSWINSZ)");
+			exit(EXIT_FAILURE);
+		}
+	}
+
+	if (dup2(slave_fd, STDIN_FILENO) != STDIN_FILENO)
+	{
+		perror("ERROR: pty_fork:dup2 - STDIN_FILENO");
+		exit(EXIT_FAILURE);
+	}
+
+	if (dup2(slave_fd, STDOUT_FILENO) != STDOUT_FILENO)
+	{
+		perror("ERROR: pty_fork:dup2 - STDOUT_FILENO");
+		exit(EXIT_FAILURE);
+	}
+
+	if (dup2(slave_fd, STDERR_FILENO) != STDERR_FILENO)
+	{
+		perror("ERROR: pty_fork:dup2 - STDERR_FILENO");
+		exit(EXIT_FAILURE);
+	}
+
+	if (slave_fd > STDERR_FILENO)
+		close(slave_fd);
+	
+	return 0;
+}

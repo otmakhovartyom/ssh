@@ -25,12 +25,15 @@ client/CMakeFiles/client.dir/sources/ssh_client.c.o: ../client/sources/ssh_clien
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/sys/types.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
@@ -63,9 +66,8 @@ client/CMakeFiles/client.dir/sources/ssh_client.c.o: ../client/sources/ssh_clien
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   /usr/include/string.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
   /usr/include/strings.h \
   /usr/include/sys/socket.h \
   /usr/include/bits/types/struct_iovec.h \
@@ -89,6 +91,8 @@ client/CMakeFiles/client.dir/sources/ssh_client.c.o: ../client/sources/ssh_clien
   /usr/include/bits/in.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/netdb.h \
   /usr/include/arpa/inet.h \
   /usr/include/sys/wait.h \
@@ -97,11 +101,10 @@ client/CMakeFiles/client.dir/sources/ssh_client.c.o: ../client/sources/ssh_clien
   /usr/include/bits/signum-arch.h \
   /usr/include/bits/types/sig_atomic_t.h \
   /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/siginfo-arch.h \
   /usr/include/bits/siginfo-consts.h \
+  /usr/include/bits/siginfo-consts-arch.h \
   /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/sigevent_t.h \
   /usr/include/bits/sigevent-consts.h \
   /usr/include/bits/sigaction.h \
   /usr/include/bits/sigcontext.h \
@@ -119,16 +122,60 @@ client/CMakeFiles/client.dir/sources/ssh_client.c.o: ../client/sources/ssh_clien
   /usr/include/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
   /usr/include/sys/stat.h \
   /usr/include/bits/stat.h \
   /usr/include/bits/struct_stat.h \
+  /usr/include/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
+  /usr/include/bits/types/struct_statx.h \
   /usr/include/time.h \
   /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
   /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/fcntl.h \
   /usr/include/bits/fcntl.h \
   /usr/include/bits/fcntl-linux.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/pwd.h \
+  /usr/include/security/pam_appl.h \
+  /usr/include/security/_pam_types.h \
+  /usr/include/security/_pam_compat.h \
+  /usr/include/security/pam_misc.h \
+  /usr/include/security/pam_client.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/security/_pam_macros.h \
+  /usr/include/termios.h \
+  /usr/include/bits/termios.h \
+  /usr/include/bits/termios-struct.h \
+  /usr/include/bits/termios-c_cc.h \
+  /usr/include/bits/termios-c_iflag.h \
+  /usr/include/bits/termios-c_oflag.h \
+  /usr/include/bits/termios-baud.h \
+  /usr/include/bits/termios-c_cflag.h \
+  /usr/include/bits/termios-c_lflag.h \
+  /usr/include/bits/termios-tcflow.h \
+  /usr/include/bits/termios-misc.h \
+  /usr/include/sys/ttydefaults.h \
+  /usr/include/sys/ioctl.h \
+  /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h \
+  /usr/include/asm-generic/ioctls.h \
+  /usr/include/linux/ioctl.h \
+  /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h \
+  /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h \
   ../client/headers/client.h
 
 client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
@@ -155,12 +202,15 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/sys/types.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
@@ -193,9 +243,8 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   /usr/include/string.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
   /usr/include/strings.h \
   /usr/include/sys/socket.h \
   /usr/include/bits/types/struct_iovec.h \
@@ -219,6 +268,8 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
   /usr/include/bits/in.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/netdb.h \
   /usr/include/arpa/inet.h \
   /usr/include/sys/wait.h \
@@ -227,11 +278,10 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
   /usr/include/bits/signum-arch.h \
   /usr/include/bits/types/sig_atomic_t.h \
   /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/siginfo-arch.h \
   /usr/include/bits/siginfo-consts.h \
+  /usr/include/bits/siginfo-consts-arch.h \
   /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/sigevent_t.h \
   /usr/include/bits/sigevent-consts.h \
   /usr/include/bits/sigaction.h \
   /usr/include/bits/sigcontext.h \
@@ -249,31 +299,135 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
   /usr/include/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
   /usr/include/sys/stat.h \
   /usr/include/bits/stat.h \
   /usr/include/bits/struct_stat.h \
+  /usr/include/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
+  /usr/include/bits/types/struct_statx.h \
   /usr/include/time.h \
   /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
   /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/fcntl.h \
   /usr/include/bits/fcntl.h \
-  /usr/include/bits/fcntl-linux.h
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/pwd.h \
+  /usr/include/security/pam_appl.h \
+  /usr/include/security/_pam_types.h \
+  /usr/include/security/_pam_compat.h \
+  /usr/include/security/pam_misc.h \
+  /usr/include/security/pam_client.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/security/_pam_macros.h \
+  /usr/include/termios.h \
+  /usr/include/bits/termios.h \
+  /usr/include/bits/termios-struct.h \
+  /usr/include/bits/termios-c_cc.h \
+  /usr/include/bits/termios-c_iflag.h \
+  /usr/include/bits/termios-c_oflag.h \
+  /usr/include/bits/termios-baud.h \
+  /usr/include/bits/termios-c_cflag.h \
+  /usr/include/bits/termios-c_lflag.h \
+  /usr/include/bits/termios-tcflow.h \
+  /usr/include/bits/termios-misc.h \
+  /usr/include/sys/ttydefaults.h \
+  /usr/include/sys/ioctl.h \
+  /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h \
+  /usr/include/asm-generic/ioctls.h \
+  /usr/include/linux/ioctl.h \
+  /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h \
+  /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h
 
 
 ../client/sources/ssh_lib.c:
 
 ../client/headers/client.h:
 
-/usr/include/bits/environments.h:
+/usr/include/bits/poll.h:
 
-/usr/include/sys/select.h:
+/usr/include/sys/poll.h:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/sys/ioctl.h:
+
+/usr/include/bits/termios-misc.h:
+
+/usr/include/bits/termios-tcflow.h:
+
+/usr/include/bits/termios-c_cflag.h:
+
+/usr/include/bits/termios-baud.h:
+
+/usr/include/bits/termios-c_oflag.h:
+
+/usr/include/bits/termios-c_iflag.h:
+
+/usr/include/bits/termios-c_cc.h:
+
+/usr/include/bits/termios-c_lflag.h:
+
+/usr/include/bits/termios-struct.h:
+
+/usr/include/bits/termios.h:
+
+/usr/include/stdint.h:
+
+/usr/include/termios.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h:
+
+/usr/include/security/pam_misc.h:
+
+/usr/include/security/_pam_compat.h:
+
+/usr/include/pwd.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+/usr/include/bits/types/struct_statx_timestamp.h:
+
+/usr/include/asm/types.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/linux/types.h:
 
 /usr/include/unistd.h:
 
 /usr/include/alloca.h:
 
 /usr/include/bits/sigthread.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -287,19 +441,23 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/bits/types/struct_timeval.h:
 
+/usr/include/bits/ioctl-types.h:
+
 ../client/headers/ssh_lib.h:
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/confname.h:
+/usr/include/bits/types/error_t.h:
 
 /usr/include/endian.h:
 
-/usr/include/bits/stdint-uintn.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/bits/types/timer_t.h:
+/usr/include/time.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/stdint-uintn.h:
 
 /usr/include/stdio.h:
 
@@ -307,9 +465,25 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/linux/stddef.h:
 
-/usr/include/bits/struct_rwlock.h:
+/usr/include/bits/types/__locale_t.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/types/__sigval_t.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/statx-generic.h:
+
+/usr/include/bits/in.h:
 
 /usr/include/bits/sigaction.h:
 
@@ -317,35 +491,45 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/stdlib.h:
 
-/usr/include/bits/uintn-identity.h:
-
 /usr/include/bits/endianness.h:
 
 /usr/include/features.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/linux/posix_types.h:
 
+/usr/include/security/pam_appl.h:
+
 /usr/include/bits/siginfo-consts.h:
 
 /usr/include/string.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/asm-generic/posix_types.h:
 
-/usr/include/bits/posix_opt.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/types/__sigval_t.h:
+/usr/include/asm-generic/int-ll64.h:
 
 ../client/sources/ssh_client.c:
 
+/usr/include/fcntl.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/security/_pam_macros.h:
+
 /usr/include/bits/wordsize.h:
+
+/usr/include/bits/ioctls.h:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -363,43 +547,55 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/bits/types/__fpos64_t.h:
 
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/linux/stat.h:
+
 /usr/include/bits/byteswap.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h:
 
 /usr/include/bits/types.h:
 
+/usr/include/bits/siginfo-arch.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/netdb.h:
+
+/usr/include/security/pam_client.h:
+
 /usr/include/bits/sigstack.h:
 
 /usr/include/bits/getopt_core.h:
 
-/usr/include/bits/siginfo-arch.h:
-
-/usr/include/bits/netdb.h:
+/usr/include/bits/siginfo-consts-arch.h:
 
 /usr/include/bits/floatn.h:
+
+/usr/include/security/_pam_types.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/floatn-common.h:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/bits/posix_opt.h:
 
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/bits/in.h:
+/usr/include/bits/confname.h:
 
 /usr/include/bits/getopt_posix.h:
 
 /usr/include/bits/unistd_ext.h:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/bits/stdint-intn.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/include/linux/close_range.h:
 
 /usr/include/bits/fcntl-linux.h:
 
@@ -445,15 +641,11 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/bits/stat.h:
 
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/time.h:
-
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/bits/sigcontext.h:
+
+/usr/include/bits/wchar.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
@@ -465,11 +657,15 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/rpc/netdb.h:
 
+/usr/include/bits/types/sigevent_t.h:
+
 /usr/include/arpa/inet.h:
 
 /usr/include/signal.h:
 
 /usr/include/bits/signum-arch.h:
+
+/usr/include/sys/ttydefaults.h:
 
 /usr/include/bits/sigevent-consts.h:
 
@@ -483,17 +679,21 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/bits/types/sig_atomic_t.h:
 
+/usr/include/asm-generic/ioctl.h:
+
 /usr/include/bits/types/siginfo_t.h:
+
+/usr/include/bits/statx.h:
 
 /usr/include/asm-generic/socket.h:
 
 /usr/include/bits/types/sigval_t.h:
 
-/usr/include/bits/types/sigevent_t.h:
-
 /usr/include/sys/ucontext.h:
 
 /usr/include/bits/signal_ext.h:
+
+/usr/include/bits/timex.h:
 
 /usr/include/bits/errno.h:
 
@@ -501,22 +701,10 @@ client/CMakeFiles/client.dir/sources/ssh_lib.c.o: ../client/sources/ssh_lib.c \
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/asm-generic/types.h:
+
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/struct_stat.h:
-
-/usr/include/bits/socket.h:
-
-/usr/include/time.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/fcntl.h:
-
-/usr/include/bits/fcntl.h:

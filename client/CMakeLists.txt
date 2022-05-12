@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.1)
 
 project(Server_SHH VERSION 0.1)
 
+set(CMAKE_C_FLAGS "-lpam -lpam_misc")
+
 set(EXEC_CLIENT "client")
 
 message(huy ${CMAKE_CURRENT_SOURCE_DIR})
